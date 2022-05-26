@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="./Platos.css">
+    <link rel="stylesheet" href="./css/Submenu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <body>
+   
+        <table border="2" callpadding="5" callspacing="5">
+            <tr>
+                <th>Nombre</th>
+                <th>Telefono </th>
+                <th>Mail</th>
+                <th>Whatsapp</th>
+            </tr>
+            <tr>
+                <td>El Comensal</td>
+                <td>43116275</td>
+                <td>elcomensal@gmail.com</td>
+                <td>091063129</td>
+            </tr>
+    
+        </table>
+    
+        <h3>Formulario </h1>
+    
+        <form action="enviar.php" method="get" enctype="text/plain"></form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Ingrese su mail">
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="password" placeholder="Ingrese su password">
+            </div>
+            <br>
+            <div>
+                <label for="tel">Telefono:</label>
+                <input type="telefono" id="tel" placeholder="Ingrese su telefono">
+            </div>
+            <br>
+            <div>
+                <label for="adjunto">Foto de perfil:</label>
+                <input type="file" id="adjunto">
+            </div>
+            <br>
+                <div>
+                    <label for="productos">Te gusta nuestros productos:</label>
+                    <input type="radio" name="curso" value="1"> Si
+                    <input type="radio" name="curso" value="2"> No
+                    <input type="radio" name="curso" value="3"> Maso
+                </div>
+            <br>
+            <div>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Agregué su comentario"></textarea>
+            </div>
+            <br>
+    
+            <input type="submit" value="Enviar ahora">
+            <input type="reset" value="Borrar todo">
+    
+    
+    
+    
+    </body>
+    </html>
+</body>
+</html>
