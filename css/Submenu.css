@@ -1,4 +1,4 @@
-* {
+*  {
     margin: 0;
     padding: 0;
     font-family: 'Grenze Gotisch', cursive;
@@ -55,26 +55,4 @@ p {
 aside {
     
     
-}
-
-/* animacion */
-@keyframes mi-animacion {
-    0% {
-        background: goldenrod;
-    }
-    50% {
-        background: red;
-    }
-    100% {
-        background: gray;
-    }
-}
-
-.animate {
-    border: 2px #333;
-    animation-name: mi-animacion;
-    animation-duration:  3s;
-    animation-timing-function: linear;
-    animation-delay: 2;
-    animation-iteration-count: infinite;
 }
